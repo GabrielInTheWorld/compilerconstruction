@@ -1,0 +1,12 @@
+function getStringArray(): stringArray =
+    return [];
+
+function printStringArray(sa: stringArray) =
+    print(sa);
+
+function strcmp(s1: string, s2: string): int =
+    return -1;
+
+function sortStringArray(sa: stringArray) =
+    in print(sa);
+    end;
