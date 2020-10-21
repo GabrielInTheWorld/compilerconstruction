@@ -1,0 +1,25 @@
+program
+type strings = array of string
+var numberOfStrings: int := 4
+
+
+function getString(strnm: string): string =
+    let var v := strnm
+        in print(v);
+            let var v:= "7" in print(v) end;
+            print(v);
+            let var v:= "8" in print (v) end;
+            print(v);
+        return "world"
+        end
+
+function getStringArray(): strings =
+    let var v:= strings [1] of "hello"
+    in
+    return v 
+    end
+
+in
+let var str := getString("hello")
+in print(str) end
+end
